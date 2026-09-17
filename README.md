@@ -26,6 +26,11 @@ Os dados utilizados são provenientes do **DATASUS**, por meio dos arquivos de p
 **Grupo:** APAC de Quimioterapia (AQ)  
 **Diagnóstico principal selecionado:** CID-10 iniciado por C50  
 
+### Links oficiais
+
+- **Sistema de Informações Ambulatoriais do SUS (SIA/SUS):** https://sia.datasus.gov.br/principal/index.php
+- **Documentação e arquivos da APAC — DATASUS:** https://sia.datasus.gov.br/documentos/listar_ftp_apac.php
+
 Os arquivos foram obtidos programaticamente por meio da biblioteca **PySUS** e processados utilizando **PySpark**.
 
 ## Tecnologias utilizadas
