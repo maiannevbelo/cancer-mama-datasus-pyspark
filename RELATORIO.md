@@ -23,6 +23,14 @@ O volume final atende ao requisito do projeto de utilização de conjunto de dad
 
 É importante destacar que a unidade analisada é o **registro administrativo de APAC**, e não o paciente individual. Dessa forma, um mesmo indivíduo pode apresentar mais de um registro ao longo do tratamento.
 
+### Fonte oficial dos dados
+
+Os dados utilizados são provenientes do Sistema de Informações Ambulatoriais do SUS (SIA/SUS), disponibilizado pelo DATASUS.
+
+- **SIA/SUS — DATASUS:** https://sia.datasus.gov.br/principal/index.php
+- **Documentação da APAC — DATASUS:** https://sia.datasus.gov.br/documentos/listar_ftp_apac.php
+
+A obtenção dos arquivos mensais utilizados neste projeto foi realizada programaticamente por meio da biblioteca PySUS.
 ---
 
 ## 2. Seleção, pré-processamento e transformação dos dados
